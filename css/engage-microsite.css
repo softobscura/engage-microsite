@@ -19,49 +19,48 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
-
-
+	vertical-align: baseline;}
 
 /*Constant*/
 body {
 	background-color: #CCC;
 }
 
-p {
-	font-size: 14px;
+
+h1 {
+	font-size: 24px;
+	color: #138DC2;
+	padding-bottom: 20px;
+
+}
+
+h2 {
+
 	color: #666666;
-	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+h3 {
+
+	color: #138DC2;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+p {
+	font-size: 16px;
+	color: #666666;
+	font-family: 'PT Sans', sans-serif;
 	line-height: 1.5em;
 	text-align: justify;
 	padding-bottom: 20px;
 }
-h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 21px;
-	font-weight: bold;
-	color: #138DC2;
-	padding-bottom: 20px;
-	text-transform: uppercase;
-}
-h2 {
-	text-transform: uppercase;
-	color: #666666;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-}
-h3 {
-	text-transform: uppercase;
-	color: #138DC2;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 21px;
-	font-weight: bold;
-	padding-bottom: 20px;
-}
-
-
 
 
 
@@ -117,12 +116,11 @@ h3 {
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	text-transform: uppercase;
+	font-family: 'Nunito', sans-serif;
 	color: #FFF;
 	text-decoration: none;
 	font-size: 16px;
+	letter-spacing: 1px;
 }
 
 /*---NAVIGATION EFFECTS---*/
@@ -165,37 +163,44 @@ body#contact a#contactnav {
 	margin-bottom: 10px;
 
 }
+
 .footer {
 	float: left;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	color: #666666;
-	font-size: 12px;
+	font-size: 16px;
 }
-#DDA-logo  {
+
+#DDA-logo {
 	height: 20px;
 	width: 127px;
 	float: right;
 }
+
 .styling {
 	font-weight: normal;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-style: italic;
 	text-transform: capitalize;
 }
+
 .emaillink {
 	font-weight: normal;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-style: normal;
 	text-transform: lowercase;
 	color: #666666;
 	text-decoration: underline;
 }
+
 .framestrokeborder {
 	border: 1px solid #666666;
 }
+
 .moveleft {
 	margin-left: -21px;
 }
+
 #imageplaceholder {
 	height: 403px;
 	width: 533px;
@@ -205,6 +210,7 @@ body#contact a#contactnav {
 	background-image: url(../images/engage-will-help-you.png);
 	background-repeat: no-repeat;
 }
+
 #imageplaceholder-two {
 	height: 633px;
 	width: 533px;
@@ -214,6 +220,7 @@ body#contact a#contactnav {
 	background-image: url(../images/how-engage-works-colored.png);
 	background-repeat: no-repeat;
 }
+
 #imageplaceholder-three {
 	height: 284px;
 	width: 533px;
@@ -223,3 +230,5 @@ body#contact a#contactnav {
 	background-image: url(../images/at-first-it-was-personal.jpg);
 	background-repeat: no-repeat;
 }
+
+
